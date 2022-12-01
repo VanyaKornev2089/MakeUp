@@ -1,12 +1,14 @@
 .header
-    padding-top: 40px
+    padding-top: 20px
     padding-left: 15px
-    padding-bottom: 42px
+    padding-bottom: 20px
     background: #ffffff
     &-content
         display: flex
         align-items: center
         justify-content: space-between
+        &__logo
+            width: 120px
         &__tel
             font-weight: bold
             font-family: 'Jomhuria'
@@ -17,8 +19,11 @@
             &:hover
                 text-decoration: underline
         &-nav
+            transition: all .3s
             &__items
                 margin-right: 40px
+                &:hover
+                    color: #ce6c6c
                 &:last-child
                     margin: 0
             
